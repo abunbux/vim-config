@@ -1,0 +1,54 @@
+# -*- mode: org; -*-
+#+TITLE: README
+#+DESCRIPTION:
+#+KEYWORDS:
+#+AUTHOR:
+#+email:
+#+INFOJS_OPT:
+#+STARTUP:  content
+
+#+DATE: CREATED: <Sat Jul 24 14:34:55 EEST 2021>
+# Time-stamp: <Последнее обновление -- Wednesday July 28 20:17:39 EEST 2021>
+
+
+#+begin_src shell
+
+  git clone https://github.com/abunbux/vim-config.git ~/.vim
+
+#+end_src
+
+** Vundle.vim - менеджер плагинов для *vim*
+
+   https://github.com/VundleVim/Vundle.vim
+
+   #+begin_src shell
+
+     cd .vim
+     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+   #+end_src
+
+   Убеждаемся, что ~.vim/bundle/Vundle.vim/~ в наличии, открываем любой текстовый
+   файл в ~vim~ и запускаем:
+
+   #+begin_src conf
+
+         :PluginInstall
+
+   #+end_src
+
+   Для установки ~plugins~ из командной строки:
+
+   #+begin_src shell
+
+     vim +PluginInstall +qall
+
+   #+end_src
+
+   Для тех, кто использует ~fish~ в ~shell~ добавляем в ~.vimrc~:
+
+   #+begin_src conf
+
+         set shell=/bin/bash
+
+   #+end_src
