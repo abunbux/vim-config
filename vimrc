@@ -1,4 +1,4 @@
-"" Last update: 17.03.2022 21:05
+"" Last update: 17.03.2022 21:43
 
 "=====================================================
 "VUNDLE SETTINGS
@@ -28,9 +28,6 @@ Plugin 'yegappan/mru'
 "Подстветка парных html, xml тегов
 "Подсвечивает парный тэг при наведении
 Plugin  'gregsexton/MatchTag'
-"Подсвечивает парные тэги постоянно, пока
-"находишься в пространстве этого тэга
-"Plugin  'Valloric/MatchTagAlways'
 
 Plugin  'Chiel92/vim-autoformat'
 
